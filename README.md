@@ -101,7 +101,7 @@ This will start the Open WebUI server, which you can access at [http://localhost
 
 ### Installation with Default Configuration
 
-(REPLACE THE Xs WITH your chosen container version - list is [here.](https://ghcr.io/sneed-group/open-webui-sneedai))
+(REPLACE THE Xs WITH your chosen container architecture - list is [here.](https://ghcr.io/sneed-group/open-webui-sneedai))
 
 - **If Ollama is on your computer**, use this command:
 
@@ -146,7 +146,7 @@ This installation method uses a single container image that bundles Open WebUI w
   If you're not using a GPU, use this command instead:
 
   ```bash
-  docker run -d -p 3000:8080 -v ollama:/root/.ollama -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:cache-ollama-linux-XXXXXX
+  docker run -d -p 3000:8080 -v ollama:/root/.ollama -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/sneed-group/open-webui-sneedai:cache-ollama-linux-XXXXXX
   ```
 
 Both commands facilitate a built-in, hassle-free installation of both Open WebUI and Ollama, ensuring that you can get everything up and running swiftly.
