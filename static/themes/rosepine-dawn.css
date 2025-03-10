@@ -1,131 +1,131 @@
-.rose-pine * {
+.rose-pine-dawn * {
 	color: #16a842;
 	stroke: #0f792d;
 }
 
-.rose-pine .app > * {
+.rose-pine-dawn .app > * {
 	background: #000000;
 }
 
-.rose-pine #nav {
+.rose-pine-dawn #nav {
 	background: #000000;
 }
 
-.rose-pine .py-2\.5.my-auto.flex.flex-col.justify-between.h-screen {
+.rose-pine-dawn .py-2\.5.my-auto.flex.flex-col.justify-between.h-screen {
 	background: #000000;
 }
 
-.rose-pine .bg-white.dark\:bg-gray-800 {
+.rose-pine-dawn .bg-white.dark\:bg-gray-800 {
 	background: #000000;
 }
 
-.rose-pine .w-4.h-4 {
+.rose-pine-dawn .w-4.h-4 {
 	fill: #468c4a;
 }
 
-.rose-pine #chat-input {
+.rose-pine-dawn #chat-input {
 	background: #000000;
 	margin: 0.3rem;
 	padding: 0.5rem;
 }
 
-.rose-pine .bg-gradient-to-t.from-white.dark\:from-gray-800.from-40\%.pb-2 {
+.rose-pine-dawn .bg-gradient-to-t.from-white.dark\:from-gray-800.from-40\%.pb-2 {
 	background: #000000;
 	padding-top: 0.6rem;
 }
 
-.rose-pine
+.rose-pine-dawn
 	.text-white.bg-gray-100.dark\:text-gray-800.dark\:bg-gray-600.disabled.transition.rounded-lg.p-1.mr-0\.5.w-7.h-7.self-center {
 	background: #000000;
 	transition: background-color 0.2s ease-out linear;
 }
 
-.rose-pine
+.rose-pine-dawn
 	.bg-black.text-white.hover\:bg-gray-900.dark\:bg-white.dark\:text-black.dark\:hover\:bg-gray-100.transition.rounded-lg.p-1.mr-0\.5.w-7.h-7.self-center {
 	background: #000000;
 	transition: background-color 0.2s ease-out linear;
 }
 
-.rose-pine
+.rose-pine-dawn
 	.bg-black.text-white.hover\:bg-gray-900.dark\:bg-white.dark\:text-black.dark\:hover\:bg-gray-100.transition.rounded-lg.p-1.mr-0\.5.w-7.h-7.self-center
 	> * {
 	fill: #365620 !important;
 	transition: fill 0.2s ease-out linear;
 }
 
-.rose-pine
+.rose-pine-dawn
 	.w-full.flex.justify-between.rounded-md.px-3.py-2.hover\:bg-gray-900.bg-gray-900.transition.whitespace-nowrap.text-ellipsis {
 	background: #000000;
 	font-weight: bold;
 }
 
-.rose-pine .hover\:bg-gray-900:hover {
+.rose-pine-dawn .hover\:bg-gray-900:hover {
 	--tw-bg-opacity: 1;
 	background-color: rgb(57 53 82 / var(--tw-bg-opacity));
 }
 
-.rose-pine .text-xs.text-gray-700.uppercase.bg-gray-50.dark\:bg-gray-700.dark\:text-gray-400 {
+.rose-pine-dawn .text-xs.text-gray-700.uppercase.bg-gray-50.dark\:bg-gray-700.dark\:text-gray-400 {
 	background: #000000;
 }
 
-.rose-pine .scrollbar-hidden.relative.overflow-x-auto.whitespace-nowrap.svelte-3g4avz {
+.rose-pine-dawn .scrollbar-hidden.relative.overflow-x-auto.whitespace-nowrap.svelte-3g4avz {
 	border-radius: 16px 16px 0 0;
 }
 
-.rose-pine .base.enter.svelte-ug60r4 {
+.rose-pine-dawn .base.enter.svelte-ug60r4 {
 	background: #000000;
 }
 
-.rose-pine .message.svelte-1nauejd {
+.rose-pine-dawn .message.svelte-1nauejd {
 	color: #4838ef;
 }
 
-.rose-pine #dropdownDots {
+.rose-pine-dawn #dropdownDots {
 	background: #000000;
 }
 
-.rose-pine .flex.py-2\.5.px-3\.5.w-full.hover\:bg-gray-800.transition:hover {
+.rose-pine-dawn .flex.py-2\.5.px-3\.5.w-full.hover\:bg-gray-800.transition:hover {
 	background: #000000;
 }
 
-.rose-pine .m-auto.rounded-xl.max-w-full.w-\[40rem\].mx-2.bg-gray-50.dark\:bg-gray-900.shadow-3xl {
+.rose-pine-dawn .m-auto.rounded-xl.max-w-full.w-\[40rem\].mx-2.bg-gray-50.dark\:bg-gray-900.shadow-3xl {
 	background: #000000;
 }
 
-.rose-pine
+.rose-pine-dawn
 	.w-full.rounded.p-4.text-sm.dark\:text-gray-300.dark\:bg-gray-800.outline-none.resize-none {
 	background: #000000;
 }
 
-.rose-pine
+.rose-pine-dawn
 	.w-full.rounded.py-2.px-4.text-sm.dark\:text-gray-300.dark\:bg-gray-800.outline-none.svelte-1vx7r9s {
 	background: #000000;
 }
 
-.rose-pine
+.rose-pine-dawn
 	.px-2\.5.py-2\.5.min-w-fit.rounded-lg.flex-1.md\:flex-none.flex.text-right.transition.bg-gray-200.dark\:bg-gray-700 {
 	background: #000000;
 }
 
-.rose-pine
+.rose-pine-dawn
 	.px-2\.5.py-2\.5.min-w-fit.rounded-lg.flex-1.md\:flex-none.flex.text-right.transition.hover\:bg-gray-300.dark\:hover\:bg-gray-800:hover {
 	background: #000000;
 }
 
-.rose-pine .px-4.py-2.bg-emerald-600.hover\:bg-emerald-700.text-gray-100.transition.rounded {
+.rose-pine-dawn .px-4.py-2.bg-emerald-600.hover\:bg-emerald-700.text-gray-100.transition.rounded {
 	background: #000000;
 }
 
-.rose-pine #chat-search > * {
+.rose-pine-dawn #chat-search > * {
 	background: #000000;
 }
 
-.rose-pine .svelte-1ee93ns {
+.rose-pine-dawn .svelte-1ee93ns {
 	--primary: #16a842 !important;
 	--secondary: #000000 !important;
 }
 
-.rose-pine .svelte-11kvm4p {
+.rose-pine-dawn .svelte-11kvm4p {
 	--primary: #16a842 !important;
 	--secondary: #1f1d2e !important;
 }
