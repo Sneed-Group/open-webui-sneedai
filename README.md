@@ -1,4 +1,4 @@
-# Open WebUI 👋
+# Open WebUI 👋 (Sneed Group Modifications)
 
 ![GitHub stars](https://img.shields.io/github/stars/open-webui/open-webui?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/open-webui/open-webui?style=social)
@@ -101,10 +101,12 @@ This will start the Open WebUI server, which you can access at [http://localhost
 
 ### Installation with Default Configuration
 
+(REPLACE THE Xs WITH your chosen container version - list is [here.](https://ghcr.io/sneed-group/open-webui-sneedai))
+
 - **If Ollama is on your computer**, use this command:
 
   ```bash
-  docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main
+  docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/sneed-group/open-webui-sneedai:cache-linux-XXXXXXX
   ```
 
 - **If Ollama is on a Different Server**, use this command:
@@ -112,13 +114,13 @@ This will start the Open WebUI server, which you can access at [http://localhost
   To connect to Ollama on another server, change the `OLLAMA_BASE_URL` to the server's URL:
 
   ```bash
-  docker run -d -p 3000:8080 -e OLLAMA_BASE_URL=https://example.com -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main
+  docker run -d -p 3000:8080 -e OLLAMA_BASE_URL=https://example.com -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/sneed-group/open-webui-sneedai:cache-linux-XXXXXX
   ```
 
 - **To run Open WebUI with Nvidia GPU support**, use this command:
 
   ```bash
-  docker run -d -p 3000:8080 --gpus all --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:cuda
+  docker run -d -p 3000:8080 --gpus all --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/sneed-group/open-webui-sneedai:cache-cuda-linux-XXXXXX
   ```
 
 ### Installation for OpenAI API Usage Only
@@ -126,7 +128,7 @@ This will start the Open WebUI server, which you can access at [http://localhost
 - **If you're only using OpenAI API**, use this command:
 
   ```bash
-  docker run -d -p 3000:8080 -e OPENAI_API_KEY=your_secret_key -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main
+  docker run -d -p 3000:8080 -e OPENAI_API_KEY=your_secret_key -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/sneed-group/open-webui-sneedai:cache-linux-XXXXXXX
   ```
 
 ### Installing Open WebUI with Bundled Ollama Support
@@ -137,14 +139,14 @@ This installation method uses a single container image that bundles Open WebUI w
   Utilize GPU resources by running the following command:
 
   ```bash
-  docker run -d -p 3000:8080 --gpus=all -v ollama:/root/.ollama -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:ollama
+  docker run -d -p 3000:8080 --gpus=all -v ollama:/root/.ollama -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/sneed-group/open-webui-sneedai:cache-ollama-linux-XXXXXXX
   ```
 
 - **For CPU Only**:
   If you're not using a GPU, use this command instead:
 
   ```bash
-  docker run -d -p 3000:8080 -v ollama:/root/.ollama -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:ollama
+  docker run -d -p 3000:8080 -v ollama:/root/.ollama -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:cache-ollama-linux-XXXXXX
   ```
 
 Both commands facilitate a built-in, hassle-free installation of both Open WebUI and Ollama, ensuring that you can get everything up and running swiftly.
