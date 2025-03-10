@@ -1,8 +1,8 @@
 #!/bin/bash
 
-image_name="open-webui"
-container_name="open-webui"
-host_port=3000
+image_name="open-webui-sneedgroup"
+container_name="open-webui-sneedgroup-container"
+host_port=3069
 container_port=8080
 
 docker build -t "$image_name" .
